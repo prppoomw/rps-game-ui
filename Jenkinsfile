@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'IMAGE_NAME', defaultValue: 'rps/rps-game-ui', description: 'Docker image name')
+        string(name: 'IMAGE_NAME', defaultValue: 'prppoomw/rps-game-ui', description: 'Docker image name')
         string(name: 'EC2_HOST', description: 'Target server to deploy docker image e.g. ec2-user@your-ec2-public-ip')
     }
 
